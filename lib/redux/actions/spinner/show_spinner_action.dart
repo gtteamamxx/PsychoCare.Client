@@ -1,0 +1,3 @@
+class ShowSpinnerAction {
+  ShowSpinnerAction();
+}

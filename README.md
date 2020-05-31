@@ -1,1 +1,1 @@
-# PsychoCare.Client
+flutter pub run build_runner build

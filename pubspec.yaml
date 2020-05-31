@@ -1,0 +1,65 @@
+name: psycho_care
+description: psycho_care
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  flutter_redux: any
+  redux: any
+  get_it: any
+  dio: any
+  email_validator: any
+  json_annotation: any
+  crypto: any
+  fluttertoast: any
+  flutter_svg: any
+  shared_preferences: any
+  permission_handler: any
+  flutter_gifimage: any
+  charts_flutter: any
+  intl: any
+  qrscan: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  build_runner: any
+  json_serializable: any
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/welcome_screen_background_green.jpg
+    - assets/images/background_white.jpg
+    - assets/icons/
+    - assets/emoji/
+
+
+  fonts:
+    - family: Segoe UI
+      fonts:
+        - asset: assets/fonts/segoeui.ttf
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
