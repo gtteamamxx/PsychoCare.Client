@@ -10,7 +10,7 @@ Application supports only Polish language
 # Requirments
 
 1. Flutter
-2. PsychoCare.API
+2. [PsychoCare.API](https://github.com/gtteamamxx/PsychoCare.API)
 
 # Installation
 Simple clone repository and change in `constants.dart` api url.
